@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.PlHSbJXJ.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"case-demo/intro.md","filePath":"case-demo/intro.md"}'),a={name:"case-demo/intro.md"};function r(n,s,c,i,d,m){return o(),t("div")}const f=e(a,[["render",r]]);export{_ as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,ae as o}from"./chunks/framework.PlHSbJXJ.js";const u=JSON.parse('{"title":"毕设工坊","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),l={name:"README.md"};function i(n,a,h,d,s,c){return r(),t("div",null,a[0]||(a[0]=[o("",8)]))}const m=e(l,[["render",i]]);export{u as __pageData,m as default};

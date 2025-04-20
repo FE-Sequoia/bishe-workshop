@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.PlHSbJXJ.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"about-us/intro.md","filePath":"about-us/intro.md"}'),a={name:"about-us/intro.md"};function r(n,s,c,i,p,_){return o(),e("div")}const m=t(a,[["render",r]]);export{u as __pageData,m as default};
