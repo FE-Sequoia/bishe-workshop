@@ -20,9 +20,9 @@ export default defineConfig({
     sidebar: {
       '/graduation-project/': [
         {
-          text: '定制服务',
+          text: '产品服务',
           items: [
-            { text: '概览', link: '/graduation-project/' },
+            { text: '定制指南', link: '/graduation-project/' },
             { text: '热门选题', link: '/graduation-project/topic' },
             { text: '论文服务', link: '/graduation-project/trap' },
             { text: '避坑指南', link: '/graduation-project/trap' }
