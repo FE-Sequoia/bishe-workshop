@@ -5,7 +5,7 @@ export default defineConfig({
   title: "毕设工坊",
   description: "为重要作品，花点慢功夫",
   cleanUrls: true,
-  public: 'bishe-workshop',
+  base: '/bishe-workshop/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
