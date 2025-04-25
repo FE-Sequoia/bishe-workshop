@@ -14,7 +14,7 @@ export default defineConfig({
       { text: '项目带练', link: '/project-coach/intro' },
       { text: '案例演示', link: '/case-demo/intro' },
       { text: '免费专区', link: '/free-resources/intro' },
-      { text: '关于我们', link: '/about-us/intro' }
+      { text: '关于我们', link: '/about-us/' }
     ],
 
     sidebar: {
@@ -26,6 +26,16 @@ export default defineConfig({
             { text: '热门选题', link: '/graduation-project/topic' },
             { text: '论文服务', link: '/graduation-project/trap' },
             { text: '避坑指南', link: '/graduation-project/trap' }
+          ]
+        }
+      ],
+      '/about-us/': [
+        {
+          text: '工坊发展',
+          items: [
+            { text: '关于我们', link: '/about-us/' },
+            { text: '联系我们', link: '/about-us/contact' },
+            { text: '工坊故事', link: '/about-us/story' }
           ]
         }
       ]
