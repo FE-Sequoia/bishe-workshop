@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t}from"./chunks/framework.PlHSbJXJ.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"free-resources/intro.md","filePath":"free-resources/intro.md"}'),o={name:"free-resources/intro.md"};function s(a,n,c,i,f,p){return t(),r("div")}const m=e(o,[["render",s]]);export{d as __pageData,m as default};
