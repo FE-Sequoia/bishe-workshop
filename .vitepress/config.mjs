@@ -10,11 +10,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '毕设定制', link: '/graduation-project/' },
-      { text: '项目带练', link: '/project-coach/' },
-      { text: '案例演示', link: '/case-demo/' },
-      { text: '免费专区', link: '/free-resources/' },
-      { text: '关于我们', link: '/about-us/' }
+      { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
+      { text: '项目带练', link: '/project-coach/', activeMatch: '/project-coach/' },
+      { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
+      { text: '免费专区', link: '/free-resources/', activeMatch: '/free-resources/' },
+      { text: '关于我们', link: '/about-us/', activeMatch: '/about-us/' }
     ],
 
     sidebar: {
