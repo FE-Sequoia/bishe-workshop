@@ -38,6 +38,16 @@ export default defineConfig({
           ]
         }
       ],
+      'free-resources': [
+        {
+          text: '免费资源',
+          items: [
+            { text: '电子图书', link: '/free-resources/book' },
+            { text: '视频资源', link: '/free-resources/video' },
+            { text: '软件工具', link: '/free-resources/software' }
+          ]
+        }
+      ],
       '/about-us/': [
         {
           text: '工坊发展',
