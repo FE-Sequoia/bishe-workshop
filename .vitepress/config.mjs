@@ -11,9 +11,9 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '毕设定制', link: '/graduation-project/' },
-      { text: '项目带练', link: '/project-coach/intro' },
-      { text: '案例演示', link: '/case-demo/intro' },
-      { text: '免费专区', link: '/free-resources/intro' },
+      { text: '项目带练', link: '/project-coach/' },
+      { text: '案例演示', link: '/case-demo/' },
+      { text: '免费专区', link: '/free-resources/' },
       { text: '关于我们', link: '/about-us/' }
     ],
 
@@ -26,6 +26,15 @@ export default defineConfig({
             { text: '热门选题', link: '/graduation-project/topic' },
             { text: '论文服务', link: '/graduation-project/trap' },
             { text: '避坑指南', link: '/graduation-project/trap' }
+          ]
+        }
+      ],
+      'case-demo': [
+        {
+          text: '案例演示',
+          items: [
+            { text: 'SSM', link: '/case-demo/ssm/' },
+            { text: 'SpringBoot', link: '/case-demo/springboot/' }
           ]
         }
       ],
