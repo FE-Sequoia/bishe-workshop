@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: 毕设工坊
-  text: ""
-  tagline: 为重要作品，花点慢功夫
+  text: 为重要作品，花点慢功夫
+  tagline: 定制、源码、部署
   actions:
     - theme: brand
-      text: 产品服务
-      link: /markdown-examples
+      text: 毕设定制
+      link: /graduation-project/
     - theme: alt
       text: 联系我们
-      link: /api-examples
+      link: /about-us/contact
 
 features:
   - title: 毕设定制
