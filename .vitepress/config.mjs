@@ -5,7 +5,7 @@ export default defineConfig({
   title: "毕设工坊",
   description: "为重要作品，花点慢功夫",
   cleanUrls: true,
-  base: '/bishe/',
+  base: '/bishe-workshop/',
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
@@ -31,6 +31,7 @@ export default defineConfig({
 
     sidebar: {
       '/graduation-project/': sidebarGraduationProject(),
+      '/project-coach/': sidebarProjectCoach(),
       'free-resources': sidebarFreeResources(),
       '/about-us/': sidebarAboutUs()
     },
@@ -52,7 +53,7 @@ function nav() {
   return [
     { text: '首页', link: '/' },
     { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
-    // { text: '项目带练', link: '/project-coach/', activeMatch: '/project-coach/' },
+    { text: '项目带练', link: '/project-coach/message-board-demand', activeMatch: '/project-coach/' },
     { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
     { text: '免费专区', link: '/free-resources/project', activeMatch: '/free-resources/' },
     { text: '关于我们', link: '/about-us/intro', activeMatch: '/about-us/' }
@@ -72,6 +73,21 @@ function sidebarGraduationProject() {
       ]
     }
   ];
+}
+
+// 项目带练
+function sidebarProjectCoach() {
+  return [
+    {
+      text: '实战-留言板',
+      collapsed: false,
+      base: '/project-coach/message-board-',
+      items: [
+        { text: '需求文档', link: 'demand' },
+        { text: '设计文档', link: 'design' }
+      ]
+    }
+  ]
 }
 
 // 免费资源
