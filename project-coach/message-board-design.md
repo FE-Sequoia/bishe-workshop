@@ -99,11 +99,15 @@ outline: deep
    - **接口地址**：`/api/messages`
    - **请求方法**：`GET`
    - **响应参数**：`{ success: boolean, message: string, data: [ { message_id: int, user_id: int, message_content: string, publish_time: datetime } ] }`
+3. **获取留言详情接口**
+  - **接口地址**：`/api/messages/${message_id}`
+  - **请求方法**：`GET`
+  - **响应参数**：`{ success: boolean, message: string, data: { message_id: int, user_id: int, message_content: string, publish_time: datetime } }`
 
 ### （三）评论回复模块接口
 
 1. **评论留言接口**
-   - **接口地址**：`/api/comments`
+   - **接口地址**：`/api/comments/${message_id}`
    - **请求方法**：`POST`
    - **请求参数**：`{ message_id: int, comment_content: string }`
    - **响应参数**：`{ success: boolean, message: string }`
