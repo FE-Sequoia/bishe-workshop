@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "毕设工坊",
   description: "为重要作品，花点慢功夫",
+  head: [['link', { rel: 'icon', href: '/bishe-workshop/public/favicon.ico' }]],
   cleanUrls: true,
   base: '/bishe-workshop/',
   lastUpdated: true,
@@ -22,6 +23,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: "/logo.png",
     search: {
       provider: 'local'
     },
@@ -55,7 +57,7 @@ function nav() {
     { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
     { text: '项目带练', link: '/project-coach/message-board-demand', activeMatch: '/project-coach/' },
     { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
-    { text: '免费专区', link: '/free-resources/project', activeMatch: '/free-resources/' },
+    { text: '免费专区', link: '/free-resources/book', activeMatch: '/free-resources/' },
     { text: '关于我们', link: '/about-us/intro', activeMatch: '/about-us/' }
   ]
 }
