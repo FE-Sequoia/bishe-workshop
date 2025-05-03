@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 毕设工坊
-  text: 为重要作品，花点慢功夫
+  text: 为好作品，花点慢功夫
   tagline: 定制、源码、部署
   actions:
     - theme: brand

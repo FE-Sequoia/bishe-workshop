@@ -67,8 +67,8 @@ function sidebarGraduationProject() {
       text: '产品服务',
       items: [
         { text: '定制指南', link: '/graduation-project/' },
-        { text: '热门选题', link: '/graduation-project/topic' },
-        { text: '论文服务', link: '/graduation-project/trap' },
+        // { text: '热门选题', link: '/graduation-project/topic' },
+        // { text: '论文服务', link: '/graduation-project/trap' },
         { text: '避坑指南', link: '/graduation-project/trap' }
       ]
     }
@@ -98,7 +98,7 @@ function sidebarFreeResources() {
       collapsed: false,
       base: '/free-resources/',
       items: [
-        { text: '开题报告', link: 'project' },
+        // { text: '开题报告', link: 'project' },
         { text: '电子图书', link: 'book' },
         { text: '视频资源', link: 'video' },
         { text: '软件工具', link: 'software' }
