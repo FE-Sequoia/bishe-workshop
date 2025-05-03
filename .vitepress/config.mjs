@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "毕设工坊",
   description: "为重要作品，花点慢功夫",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/bishe-workshop/favicon.ico' }]],
   cleanUrls: true,
   base: '/bishe-workshop/',
   lastUpdated: true,
