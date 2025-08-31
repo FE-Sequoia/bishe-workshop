@@ -33,7 +33,7 @@ export default defineConfig({
 
     sidebar: {
       '/graduation-project/': sidebarGraduationProject(),
-      '/project-coach/': sidebarProjectCoach(),
+      '/membership/': sidebarMembership(),
       'free-resources': sidebarFreeResources(),
       '/about-us/': sidebarAboutUs()
     },
@@ -55,7 +55,7 @@ function nav() {
   return [
     { text: '首页', link: '/' },
     { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
-    { text: '项目带练', link: '/project-coach/message-board-demand', activeMatch: '/project-coach/' },
+    { text: '会员基地', link: '/membership/', activeMatch: '/membership/' },
     { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
     { text: '免费专区', link: '/free-resources/book', activeMatch: '/free-resources/' },
     { text: '关于我们', link: '/about-us/intro', activeMatch: '/about-us/' }
@@ -77,16 +77,16 @@ function sidebarGraduationProject() {
   ];
 }
 
-// 项目带练
-function sidebarProjectCoach() {
+// 会员基地
+function sidebarMembership() {
   return [
     {
-      text: '实战-留言板',
+      text: '会员知识库',
       collapsed: false,
-      base: '/project-coach/message-board-',
+      base: '/membership/',
       items: [
-        { text: '需求文档', link: 'demand' },
-        { text: '设计文档', link: 'design' }
+        { text: '会员大礼包', link: 'dalibao' },
+        { text: '闲鱼运营手册', link: 'xianyu' }
       ]
     }
   ]
