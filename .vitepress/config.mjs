@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "毕设工坊",
-  description: "为重要作品，花点慢功夫",
+  description: "一站式毕业解决方案",
   head: [['link', { rel: 'icon', href: '/bishe-workshop/favicon.ico' }]],
   cleanUrls: true,
   base: '/bishe-workshop/',
@@ -55,7 +55,7 @@ function nav() {
   return [
     { text: '首页', link: '/' },
     { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
-    { text: '会员基地', link: '/membership/', activeMatch: '/membership/' },
+    { text: '合伙人计划', link: '/membership/member', activeMatch: '/membership/member' },
     { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
     { text: '免费专区', link: '/free-resources/book', activeMatch: '/free-resources/' },
     { text: '关于我们', link: '/about-us/intro', activeMatch: '/about-us/' }
@@ -81,11 +81,14 @@ function sidebarGraduationProject() {
 function sidebarMembership() {
   return [
     {
-      text: '会员知识库',
+      text: '营销',
       collapsed: false,
       base: '/membership/',
       items: [
-        { text: '会员大礼包', link: 'dalibao' },
+        { text: '会员权益', link: 'member' },
+        { text: '产品报价', link: 'baojia' },
+        { text: '销售话术', link: 'sale' },
+        { text: '其它', link: 'other' },
         { text: '闲鱼运营手册', link: 'xianyu' }
       ]
     }

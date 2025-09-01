@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: 毕设工坊
-  text: 为好作品，花点慢功夫
-  tagline: 定制、源码、部署
+  text: 一站式毕业解决方案
+  tagline: 源码、定制、指导、部署
   actions:
     - theme: brand
       text: 毕设定制
