@@ -68,6 +68,7 @@ function sidebarGraduationProject() {
     {
       text: '产品服务',
       items: [
+        { text: '服务介绍', link: '/graduation-project/introduce' },
         { text: '定制指南', link: '/graduation-project/' },
         // { text: '热门选题', link: '/graduation-project/topic' },
         // { text: '论文服务', link: '/graduation-project/trap' },
@@ -88,8 +89,8 @@ function sidebarMembership() {
         { text: '会员权益', link: 'member' },
         { text: '产品报价', link: 'baojia' },
         { text: '销售话术', link: 'sale' },
-        { text: '其它', link: 'other' },
-        { text: '闲鱼运营手册', link: 'xianyu' }
+        { text: '闲鱼运营手册', link: 'xianyu' },
+        { text: '其它', link: 'other' }
       ]
     }
   ]
