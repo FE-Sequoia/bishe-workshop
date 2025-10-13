@@ -86,7 +86,7 @@ function sidebarMembership() {
       collapsed: false,
       base: '/membership/',
       items: [
-        { text: '会员权益', link: 'member' },
+        { text: '合伙人计划', link: 'member' },
         // { text: '产品报价', link: 'baojia' },
         { text: '销售话术', link: 'sale' },
         { text: '闲鱼运营手册', link: 'xianyu' },
