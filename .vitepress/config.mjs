@@ -4,7 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "毕设工坊",
   description: "一站式毕业解决方案",
-  head: [['link', { rel: 'icon', href: '/bishe-workshop/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/bishe-workshop/favicon.ico' }],
+    [
+      'script',
+      {},
+      `
+      window._hmt = window._hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c4097bd08e22396dc07f32d7df2c0802";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      `
+    ]
+  ],
   cleanUrls: true,
   base: '/bishe-workshop/',
   lastUpdated: true,
