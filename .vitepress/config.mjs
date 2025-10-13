@@ -55,7 +55,7 @@ function nav() {
   return [
     { text: '首页', link: '/' },
     { text: '毕设定制', link: '/graduation-project/', activeMatch: '/graduation-project/' },
-    { text: '合伙人计划', link: '/membership/member', activeMatch: '/membership/member' },
+    // { text: '合伙人计划', link: '/membership/member', activeMatch: '/membership/member' },
     { text: '案例演示', link: '/case-demo/', activeMatch: '/case-demo/' },
     { text: '免费专区', link: '/free-resources/book', activeMatch: '/free-resources/' },
     { text: '关于我们', link: '/about-us/intro', activeMatch: '/about-us/' }
