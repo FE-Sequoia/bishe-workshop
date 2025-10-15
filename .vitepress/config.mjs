@@ -105,6 +105,7 @@ function sidebarMembership() {
         // { text: '产品报价', link: 'baojia' },
         { text: '销售话术', link: 'sale' },
         { text: '闲鱼运营手册', link: 'xianyu' },
+        { text: '小红书运营手册', link: 'xiaohongshu' },
         { text: '其它', link: 'other' }
       ]
     }
